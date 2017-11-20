@@ -44,9 +44,9 @@ function removeElementFromBeginningOfArray(arrayCandy) {
 }
 
 newChocolateBars = removeElementFromBeginningOfArray(chocolateBars)
-
+//
 function destructivelyRemoveElementFromBeginningOfArray(arrayCandy) {
-  arrayCandy.shift(stringCandy)
+  arrayCandy.shift(arrayCandy)
   return arrayCandy
 }
 
@@ -59,9 +59,9 @@ function removeElementFromEndOfArray(arrayCandy) {
 }
 
 newChocolateBars = removeElementFromEndOfArray(chocolateBars)
-
+//
 function destructivelyRemoveElementFromEndOfArray(arrayCandy) {
-  arrayCandy.pop(stringCandy)
+  arrayCandy.pop(arrayCandy)
   return arrayCandy
 }
 
